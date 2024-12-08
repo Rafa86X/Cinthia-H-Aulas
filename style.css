@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #000;
+}
+
+body {
+  width: 98.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./imagens/espaco.png");
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: #fff;
+  text-shadow: 10px 10px 20px black;
+  margin: 20px 0;
+}
+
+.container {
+  width: 500px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.caixa-texto {
+  padding: 20px;
+  margin: 20px 0;
+  width: 100%;
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.774);
+  border-radius: 20px;
+  box-shadow: 0 0 30px #ec18ff4f;
+}
+
+.texto-curiosidade {
+  font-size: 25px;
+  color: #f8a8ff;
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 25px;
+}
+
+.mini-caixa-botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagem-planeta {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.imagem-saturno {
+  width: 140px;
+  height: 70px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 150px;
+  height: 200px;
+  background-color: transparent;
+
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-textinho {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-hover:hover {
+  box-shadow: 0px 0px 30px rgb(35, 255, 226);
+}
