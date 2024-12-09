@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/App1/$1" }
+    ]
+  }
+  
