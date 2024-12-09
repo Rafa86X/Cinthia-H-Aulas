@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos em JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="handlePageLoad()">
+    <header>
+        <h1>Eventos em JavaScript</h1>
+    </header>
+    <main>
+        <div class="event-container">
+            <button id="clickButton">Clique em mim</button>
+        </div>
+        <div class="event-container">
+            <input id="hoverInput" type="text" placeholder="Passe o mouse aqui">
+        </div>
+        <div class="event-container">
+            <input id="blurInput" type="text" placeholder="Perdi o foco">
+        </div>
+        <div class="event-container">
+            <button id="doubleClickButton">Clique duplo</button>
+        </div>
+        <div class="event-container">
+            <button id="rightClickButton">Clique com o botão direito</button>
+        </div>
+        <div class="event-container">
+            <select id="changeSelect">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+                <option value="3">Opção 3</option>
+            </select>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido para demonstrar eventos em JavaScript.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
