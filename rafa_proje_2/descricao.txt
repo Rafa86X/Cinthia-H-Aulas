@@ -1,0 +1,7 @@
+
+Descritivo:
+
+- Crie uma div centralizada em relaçao a pagina, grande (200px x 200px);
+- Crie 3 botoes lado a lado, com os nomes de vermelho, verde e azul;
+- Quando clicar em um desses botoes deve mudar a cor de fundo da div para 
+a cor de nome do botao 

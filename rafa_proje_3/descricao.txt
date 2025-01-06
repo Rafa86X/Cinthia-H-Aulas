@@ -1,0 +1,10 @@
+
+Descritivo:
+
+- Crie um imput numerico para receber numeros;
+- Crie um botao ao lado do imput com a descricao "Gerar"
+
+Ação:
+-  Ao clicar no botao ele vai gerar uma matriz "n" x "n", 
+ apartir no numero "n" inserido no imput;
+-  Os elementos dessa matriz são blocos quadrados, div´s cor azul escuro

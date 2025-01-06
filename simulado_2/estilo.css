@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222222;
+}
+
+.assentos{
+    width: 50px;
+    height: 50px;
+    background-color: #bb9d2f;
+    margin: 5px;
+    padding: 2px;
+}
+
+.fileira{
+    display: flex;
+}
+
+.corVerde{
+    background-color: lightgreen;
+}
+
+
+.corVermelho{
+    background-color: #b900d1;
+}

@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(28, 28, 28);
+}
+
+.caixa{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caixanum{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(6, 72, 68);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 150px;
+}
+
+.botao{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
